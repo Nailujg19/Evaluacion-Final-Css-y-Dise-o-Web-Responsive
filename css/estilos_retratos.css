@@ -14,7 +14,24 @@ body {
   width: 100%;
   margin: 5px auto 0 auto;
   padding-top: 15px;
+  animation: animation_slidein 0.8s;
 }
+
+
+@-webkit-keyframes animation_slidein {
+
+  0% {
+  margin-top: 150%;
+  }
+
+  60%  {
+  margin-top: -5%;
+  }
+
+  100% {
+  margin-top: 0%;
+  }
+  }
 
 h1 {font-size: 2.5em;}
 
@@ -149,6 +166,23 @@ footer {
     margin: 1px auto 0 auto;
     height: 20%;
     padding: 0;
+    animation: animation_slidein 0.8s;
+}
+
+
+@-webkit-keyframes animation_slidein {
+
+  0% {
+    margin-top: 150%;
+  }
+
+  60%  {
+    margin-top: -5%;
+  }
+
+  100% {
+    margin-top: 0%;
+  }
   }
 
   #encabezado h1 {
@@ -200,8 +234,6 @@ footer {
     padding-top: 5%;
     padding-bottom: 5%
   }
-
-
 
   .bloque1 figure {width: 100%; margin: 0 auto;}
 
